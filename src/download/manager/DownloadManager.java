@@ -261,9 +261,9 @@ import javax.swing.event.*;
                  if(fc.showOpenDialog(this)==JFileChooser.APPROVE_OPTION)
                  {
                      targetDirectory=String.valueOf(fc.getSelectedFile());
-                     //System.out.println(targetDirectory);
+                     
                  }
-                 //selectionFlag=true;
+                
                 }
                 
                public static String getTargetDirectory()
